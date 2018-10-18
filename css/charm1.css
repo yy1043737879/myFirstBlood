@@ -1,0 +1,14 @@
+#ppp1{
+	background-image: url(../img/charm1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+}
+div{
+ height: 100%;
+}

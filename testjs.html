@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var now=new Date();
+			document.write(now);
+		</script><br />
+		Hello China!<br />
+		<script type="text/javascript">
+			var now=new Date();
+			var hour=now.getHours();
+			if(hour<12){
+				document.write("上午好")
+			}else{
+				document.write("下午好")
+			}
+			function showinfo(){
+				alert(100);
+				alert(200);
+				alert("确定");
+				alert("123");
+			}
+			
+		</script>
+		<img src="img/box.png"  onclick="showinfo()"/>
+	</body>
+</html>
